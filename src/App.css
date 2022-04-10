@@ -1,0 +1,143 @@
+header {
+  text-align: center;
+}
+
+body {
+  background-image: url('./images/background.png');
+}
+.title {
+  background-color: #181A25;
+  border: 1px solid teal;
+  color: white;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.6rem;
+  opacity: 0.789;
+  border-radius: 1rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planets {
+  display: flex;
+  width: 100%;
+  margin: 2rem 0 ;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: white;
+  padding-right: 1rem;
+}
+p {
+  text-align: center;
+}
+.planet-card {
+  display: flex;
+  flex-direction: column;
+}
+.Mercúrio {
+  width: 41px;
+  height: 31px;
+}
+.Mercúrio:hover {
+  border-radius: 50%;
+  box-shadow: 1px 1px red;
+  transition: .5s;
+  margin-bottom: 2px;
+}
+
+.Vênus {
+  width: 102px;
+  height: 76px;
+}
+.Vênus:hover {
+  border-radius: 50%;
+  box-shadow: 1px 1px rgb(102, 64, 64);
+  transition: .5s;
+}
+.Terra {
+  width: 106px;
+  height: 79px;
+  border-radius: 50%;
+}
+.Terra:hover {
+  border-radius: 50%;
+  box-shadow: 1px 1px rgb(0, 0, 214);
+  transition: .4s;
+  margin-bottom: 2px;
+}
+.Marte {
+  width: 66px;
+  height: 50px;
+}
+.Marte:hover {
+  border-radius: 50%;
+  box-shadow: 1px 4px rgb(128, 43, 43);
+  transition: .5s;
+}
+.Júpiter {
+  width: 272px;
+  height: 204px;
+}
+.Júpiter:hover {
+  border-radius: 50%;
+  box-shadow: 1px 4px rgb(90, 93, 131);
+  transition: .5s;
+}
+.Saturno {
+  width: 282.41px;
+  height: 210.9px;
+}
+.Saturno:hover {
+  border-radius: 50%;
+  box-shadow: 1px 4px rgb(148, 63, 63);
+  transition: .5s;
+}
+.Urano {
+  width: 144px;
+  height: 109px;
+}
+.Urano:hover {
+  border-radius: 50%;
+  box-shadow: 1px 1px rgb(121, 121, 194);
+  transition: .4s;
+  margin-bottom: 2px;
+}
+.Netuno {
+  width: 144px;
+  height: 107px;
+}
+.Netuno:hover {
+  border-radius: 50%;
+  box-shadow: 1px 1px rgb(0, 0, 214);
+  transition: .4s;
+  margin-bottom: 2px;
+}
+.missions {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.mission-info {
+  box-shadow: 5px 5px rgb(53, 50, 50);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  margin: 1rem;
+  color: white;
+  border: 1px solid teal
+}
+
+.title-mission {
+  text-align: center;
+  border-bottom: 1px solid teal;
+  width: 100%;
+}
